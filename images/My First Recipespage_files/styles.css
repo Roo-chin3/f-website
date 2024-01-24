@@ -1,0 +1,137 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+}
+
+img.align-left {
+    float: left;
+    padding-left: 70px;
+}
+
+img.small {
+    width: 100px;
+    height: auto;
+}
+
+.company {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.title {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.second {
+    margin-top: 50px;
+    margin-bottom: 32px;
+    margin-left: 150px;
+    margin-right: 150px;
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+      }
+      
+      .second:before,
+      .second:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 100px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #000;
+        border-bottom: solid 2px #000;
+      }
+      
+      .second:before {
+        left: 0;
+      }
+      
+      .second:after {
+        right: 0;
+      }
+
+
+.second-title {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.small {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px;
+}
+
+img {
+    width: 500px;
+    height: 308px;;
+}
+
+.box {
+    margin-bottom: 80px;
+}
+
+.info {
+    color: #454545;
+    font-size: x-large;
+    padding: 1rem 2rem;
+    border-left: 5px dotted #a8d4ff;
+    margin-left: 150px;
+    margin-right: 1090px;
+    box-shadow: 0 19px 38px rgba(203, 203, 203, 0.3), 0 15px 12px rgba(203, 203, 203, 0.22);
+}
+
+button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: 150px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 8px;
+}
+
+ol {
+    margin-bottom: 150px;
+}
